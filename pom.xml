@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- parent pom -->
+    <groupId>com.collinson.group</groupId>
+    <artifactId>collinson-group-qa-test</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <!-- sub modules -->
+    <modules>
+        <module>vendingmachine</module>
+        <module>apiautomation</module>
+    </modules>
+
+    <developers>
+        <developer>
+            <id>maryainduri</id>
+            <name>Marya Induri</name>
+            <email>marya.induri@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:lukas-krecan/JsonUnit.git</connection>
+        <developerConnection>scm:git:git@github.com:lukas-krecan/JsonUnit.git</developerConnection>
+        <url>scm:git:git@github.com:lukas-krecan/JsonUnit.git</url>
+        <tag>HEAD</tag>
+    </scm>
+</project>
