@@ -1,5 +1,6 @@
 # collinson-group-qa-technical-test
 ====================================
+
 This project has two maven modules:
 
 * apiautomation
