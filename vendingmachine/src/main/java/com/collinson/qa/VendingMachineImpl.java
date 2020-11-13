@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Sample implementation of Vending Machine.
+ */
 public class VendingMachineImpl implements VendingMachine {
 
     private final Inventory<Coin> cashInventory = new Inventory<>();

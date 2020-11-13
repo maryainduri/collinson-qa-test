@@ -1,6 +1,8 @@
 package com.collinson.qa;
 
-//Item
+/**
+ * Items or products supported by Vending Machine.
+ */
 public enum Item {
 
     COKE("COKE", 25), PEPSI("PEPSI", 35), SODA("SODA", 45);

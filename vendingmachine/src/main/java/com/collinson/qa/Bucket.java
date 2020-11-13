@@ -1,5 +1,8 @@
 package com.collinson.qa;
 
+/**
+ * A parameterized utility class to hold two different object.
+ */
 public class Bucket<E1, E2> {
 
     private E1 first;

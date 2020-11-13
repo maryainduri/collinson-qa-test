@@ -1,5 +1,8 @@
 package com.collinson.qa.exceptions;
 
+/**
+ * The Vending Machine throws this exception if the user request for a product which is sold out
+ */
 public class SoldOutException extends RuntimeException {
 
     private final String message;

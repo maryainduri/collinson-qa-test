@@ -1,5 +1,9 @@
 package com.collinson.qa.exceptions;
 
+
+/**
+ * An Exception, thrown by Vending Machine when a user tries to collect an item, without paying the full amount.
+ */
 public class NotFullPaidException extends RuntimeException {
 
     private final String message;

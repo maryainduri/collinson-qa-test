@@ -2,6 +2,9 @@ package com.collinson.qa;
 
 import java.util.List;
 
+/**
+ * Declare public API for Vending Machine
+ */
 public interface VendingMachine {
 
     public long selectItemAndGetPrice(Item item);

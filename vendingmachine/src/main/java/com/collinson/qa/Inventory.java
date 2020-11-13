@@ -3,6 +3,9 @@ package com.collinson.qa;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * An Adapter over Map to create Inventory to hold cash and * Items inside Vending Machine
+ */
 public class Inventory<T> {
 
     private final Map<T, Integer> inventory = new HashMap<>();
